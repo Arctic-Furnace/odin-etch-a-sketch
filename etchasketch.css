@@ -1,0 +1,26 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+}
+
+#container{
+    display:flex;
+    width:fit-content;
+    flex-direction: column;
+}
+
+.row{
+    background-color: bisque;
+    display:flex;
+    
+    width:fit-content;
+}
+
+.square{
+    width: 25px;
+    height: 25px;
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+    margin:5px;
+}
