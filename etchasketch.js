@@ -14,7 +14,8 @@ function newGrid(gridSize){
                 const square = document.createElement("div");
                 square.classList.add("square");
                 square.addEventListener('mouseover', () => {
-                    square.style.backgroundColor = "blue";
+
+                    square.style.backgroundColor = "black";
                 })
                 row.appendChild(square);
                 console.log("Adding square " + i);
