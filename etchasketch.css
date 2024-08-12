@@ -5,24 +5,26 @@ h1{
 
 #container{
     display:flex;
-    width:fit-content;
+    width:960px;
+    height: 960px;
     flex-direction: column;
 }
 
+#buttonNewSketch{
+    margin:25px;
+    padding:10px;
+}
+
 .row{
-    background-color: bisque;
     display:flex;
-    
-    width:fit-content;
+    flex-grow: 1;
 }
 
 .square{
-    width: 25px;
-    height: 25px;
+    flex-grow: 1;
     border: solid;
-    border-width: 2px;
-    border-color: black;
-    margin:5px;
+    border-width: 1px;
+    border-color: #ddd;
 }
 
 .hover{
