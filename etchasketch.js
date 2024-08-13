@@ -15,7 +15,7 @@ function newGrid(gridSize){
                 square.classList.add("square");
                 square.addEventListener('mouseover', () => {
 
-                    square.style.backgroundColor = "black";
+                    square.style.backgroundColor =  "#" + Math.floor(Math.random() * 16777215).toString(16) ;
                 })
                 row.appendChild(square);
                 console.log("Adding square " + i);
