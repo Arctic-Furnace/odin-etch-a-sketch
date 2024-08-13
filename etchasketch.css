@@ -1,16 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
 h1{
     font-family: 'Courier New', Courier, monospace;
     color: blue;
+    align-self: center;
 }
 
 #container{
     display:flex;
+    align-self: center;
     width:960px;
     height: 960px;
     flex-direction: column;
+    
 }
 
 #buttonNewSketch{
+    align-self: center;
+}
+
+.buttonColorContainer{
+    align-self: center;
+    display:flex;
+}
+
+button{
     margin:25px;
     padding:10px;
 }
